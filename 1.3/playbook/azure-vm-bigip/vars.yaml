@@ -27,4 +27,4 @@ ubuntu:
   vm_dnslabel: "r31-ubuntu-0701"
   ip_int: "10.7.20.100"
 
-vault_password: "P@ssw0rd!1234"
+vault_password: "password"
