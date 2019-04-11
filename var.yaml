@@ -1,3 +1,3 @@
 bigip:
-  vm_name: vm-bigip-01
-  vm_dnslabel: r31-bigip-01
+  vm_name: vm-bigip-02
+  vm_dnslabel: r31-bigip-02
