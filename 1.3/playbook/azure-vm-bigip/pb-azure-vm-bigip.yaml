@@ -1,6 +1,7 @@
 
   - name: Deploy {{ bigip.vm_name | upper }} using ARM template
     azure_rm_deployment:
+      auth_source: cli
       state: present
       resource_group_name: "{{ azure.vn_rg | upper }}_{{ bigip.vm_name | upper }}"
       location: 'southeastasia'
